@@ -4,7 +4,7 @@ nav {
     display: grid;
     grid-template-columns: 100px auto;
     grid-template-rows: auto;
-    text-transform: uppercase;
+    
 }
 
 .nav-links {
@@ -23,8 +23,17 @@ nav {
 }
 
 .nav-links a {
+    font-size: 10pt;  
+    letter-spacing: 1px;
     text-decoration: none;
-    
+    text-transform: uppercase;
+    color: #222222;
+    opacity: 0.5;
+    transition: 300ms;
+}
+
+.nav-links a:hover {
+    opacity: 1;
 }
 
 
